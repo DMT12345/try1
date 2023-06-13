@@ -1,0 +1,70 @@
+Git Commands :
+
+1. To set Username & Email
+ Syntax : git config -–global user.name “[name]” 
+    e.g : git config -–global user.name “dmtapkir21”
+ 
+ Syntax : git config –global user.email “[email address]”  
+    e.g: git config --global user.email "dmtapkir21@example.com"
+
+
+2. To Edit Username & Password 
+  Syntax : git config -–global --Edit
+
+3. To Start New Repository 
+ Syntax : git init 
+    e.g: git init  
+  
+5. Mkdir : To make new Folder
+
+6.To Clone Repository From Url
+  Syntax : git clone [url]   
+     e.g : git clone https://github.com/dmtapkir
+           git clone https://github.com/DMT12345/GIT1
+
+7. To add a file to the staging area.
+    Syntax :git add [file name]  
+      e.g :  git add GIT1.txt
+
+8.To Save Changes 
+    Syntax : git commit -m " commit msg"
+       e.g : git Commit -m "1st Commit"
+
+9.To Commit all Files 
+    Syntax: git commit -a  
+    
+10.To Check Difference between new changes 
+   Syntax : git diff 
+
+11.To lists all the files that have to be committed.
+   Syntax : git status  
+
+12. To Check Who is user who do changes
+    Syntax : git log
+
+13. To lists all the local branches in the current repository.
+   Syntax : git branch 
+
+14. To switch from one branch to another.
+     Syntax : git checkout [branch name]  
+  
+15.To merges the specified branch’s history into the current branch.
+      Syntax : git merge [branch name] 
+
+16. To sends the committed changes to your remote repository.
+      Syntax : git push 
+
+17. To fetch code from repository .
+  Syntax :git pull [Repository Link] 
+     e.g: git pull https://github.com/dmtapkir/try2
+
+18.To connect  local repository to the remote server.
+   Syntax :git remote add [variable name] [Remote Server Link] 
+        e.g:git remote add origin https://github.com/dmtapkir/try2.git
+19.
+-------------------------------------------------------------------------
+
+To Add Collaborators
+step1: GO TO Settings ->
+-> Collaborators
+->
